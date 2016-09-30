@@ -1,7 +1,7 @@
 ---
 layout: index
 
-title: Alejandro Palomino García
+title: Página principal
 tagline: aleDh097.github.io
 ---
 ### Página Principal
