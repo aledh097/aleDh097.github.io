@@ -8,4 +8,3 @@ tagline: aleDh097.github.io
 
 [Curriculum Vitae](about)
 
-Esta es la página principal
