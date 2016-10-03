@@ -4,7 +4,7 @@ title: Página principal
 tagline: aleDh097.github.io
 ---
 
-<center># Página Principal</center>
+<center> <h1>Página Principal</h1></center>
 
 <center>[Curriculum Vitae](about)</center>
 
