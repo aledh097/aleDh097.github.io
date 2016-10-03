@@ -6,8 +6,6 @@ tagline: aleDh097.github.io
 
 <center> <h1>Página Principal</h1></center>
 
-<center><hr>
-[Curriculum Vitae](about)
-</center>
+<p align="center">[Curriculum Vitae](about)</p>
 
 ![Portada](static/img/foto2.png "Portada")
