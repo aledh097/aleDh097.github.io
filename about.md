@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+# CURRICULUM
+
 ## DATOS PERSONALES
 
 * **Nombre**: Alejandro  
