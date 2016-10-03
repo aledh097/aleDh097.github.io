@@ -7,5 +7,4 @@ tagline: aleDh097.github.io
 
 [Curriculum Vitae](about)
 
-![](static/img/foto.png =100x20)
-
+![Portada](static/img/foto.png "Portada")
