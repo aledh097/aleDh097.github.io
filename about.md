@@ -35,6 +35,6 @@ permalink: /about/
 
 ##CURSOS
 
-* Programación en **Java ** 
-* Programación en **Ruby ** 
+* Programación en **Java** 
+* Programación en **Ruby** 
 
