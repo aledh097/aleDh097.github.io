@@ -11,9 +11,9 @@ permalink: /about/
 * **Fecha de nacimiento**: 23/09/1990  
 * **Domicilio**:C/La canoa nº12  
 * **Teléfono**: 6551234552  
-
-
-
+ 
+  
+   
 ## FORMACIÓN LABORAL
 
 * Administrador de Sistemas Informáticos en Red - **Nivel**: Experto  
