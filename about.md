@@ -1,5 +1,5 @@
 ---
-layout: curriculum
+layout: index
 title: About
 permalink: /about/
 ---
