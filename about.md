@@ -13,11 +13,13 @@ permalink: /about/
 * **Teléfono**: 6551234552  
 
 
+
 ## FORMACIÓN LABORAL
 
 * Administrador de Sistemas Informáticos en Red - **Nivel**: Experto  
 * Desarrollo de Aplicaciones Web - **Nivel**: Medio  
 * Desarrollo de Aplicaciones Multiplataforma - **Nivel**: Medio  
+
 
 
 ## EXPERIENCIA LABORAL
@@ -26,11 +28,13 @@ permalink: /about/
 * Desde 2003 hasta 2010 estuve trabajadno en **Amazon Spain Services, SL**  
 
 
+
 ## IDIOMAS
 
 * **Inglés** Nivel: B2  
 * **Alemán** Nivel: B1  
 * **Francés** Nivel: B1  
+
 
 
 ## CURSOS
