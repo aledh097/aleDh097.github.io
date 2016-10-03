@@ -7,3 +7,5 @@ tagline: aleDh097.github.io
 
 [Curriculum Vitae](about)
 
+![DBZ](static/img/dbz.png "Portada")
+
