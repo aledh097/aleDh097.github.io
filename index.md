@@ -4,8 +4,8 @@ title: Página principal
 tagline: aleDh097.github.io
 ---
 
-# Página Principal 
+<center># Página Principal</center>
 
-[Curriculum Vitae](about)
+<center>[Curriculum Vitae](about)</center>
 
 ![Portada](static/img/foto2.png "Portada")
