@@ -3,8 +3,7 @@ layout: curriculum
 title: About
 permalink: /about/
 ---
-# CURRICULUM
-<br>
+# CURRICULUM<br>
 ## DATOS PERSONALES
 
 * **Nombre**: Alejandro  
