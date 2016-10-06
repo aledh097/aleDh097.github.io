@@ -1,111 +1,93 @@
-body {
-  background-color: white;
-  font-family: 'Gudea', sans-serif;
-  margin: 5% 15% 5% 15%;
+<!--Force IE6 into quirks mode with this comment tag-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Dynamic Drive: CSS Top Frame Layout</title>
+<style type="text/css">
+
+body{
+margin: 0;
+padding: 0;
+border: 0;
+overflow: hidden;
+height: 100%; 
+max-height: 100%; 
 }
 
-.name {
-  color: #DF723E;
-  display: inline-block;
-  font-size: 1.4em;
-  letter-spacing: 3px;
-  text-transform: uppercase;
+#framecontent{
+position: absolute; 
+top: 0; 
+left: 0; 
+width: 100%; 
+height: 130px; /*Height of frame div*/
+overflow: hidden; /*Disable scrollbars. Set to "scroll" to enable*/
+background-color: navy;
+color: white;
 }
 
-.contact-information, .links-container {
-  color: #808284;
-  display: inline-block;
-  font-size: .8em;
-  letter-spacing: 1px;
-  line-height: .9em;
-  text-transform: uppercase;
+
+#maincontent{
+position: fixed; 
+top: 130px; /*Set top value to HeightOfFrameDiv*/
+left: 0;
+right: 0;
+bottom: 0;
+overflow: auto; 
+background: #fff;
 }
 
-.contact-deets {
-  color: #58585B;
-  display: inline-block;
-  margin-bottom: 2%;
-  margin-top: 1.1em;
-  text-decoration: none;
+.innertube{
+margin: 15px; /*Margins for inner DIV inside each DIV (to provide padding)*/
 }
 
-.links {
-  color: #58585B;
-  display: inline-block;
-  text-decoration: none;
-}
-  .links:hover {
-    color: #DF723E;
-  }
-
-.links img {
-  margin-bottom: -.2em;
-  padding-right: .3em;
-  padding-left: .3em;
+* html body{ /*IE6 hack*/
+padding: 130px 0 0 0; /*Set value to (HeightOfFrameDiv 0 0 0)*/
 }
 
-.primary-titles {
-  color: #DF723E;
-  display: inline-block;
-  font-size: .9em;
-  letter-spacing: 1px;
-  margin-bottom: -1%;
-  text-decoration: none;
+* html #maincontent{ /*IE6 hack*/
+height: 100%; 
+width: 100%; 
 }
 
-.location {
-  color: #58585B;
-  display: inline-block;
-  font-size: .8em;
-  letter-spacing: 2px;
-  margin-bottom: -1%;
-  margin-top: 1.1em;
-  padding-left: .4em;
-  text-transform: uppercase;
-}
+</style>
 
-.category-headers {
-  color: #DF723E;
-  font-size: .9em;
-  letter-spacing: 2px;
-  margin-top: 3em;
-  margin-bottom: .1em;
-  text-transform: uppercase;
+<script type="text/javascript">
+/*** Temporary text filler function. Remove when deploying template. ***/
+var gibberish=["This is just some filler text", "Welcome to Dynamic Drive CSS Library", "Demo content nothing to read here"]
+function filltext(words){
+for (var i=0; i<words; i++)
+document.write(gibberish[Math.floor(Math.random()*3)]+" ")
 }
+</script>
 
-.category-details {
-  color: #808284;
-  font-size: .9em;
-  font-style: italic;
-  line-height: 1.4em;
-  margin-bottom: 1%;
-  margin-left: 2%;
-  margin-top: .5em;
-  /*margin-top: -1%;*/
-}
+</head>
 
-.category-description-main {
-  color: #808284;
-  font-size: .9em;
-  line-height: 1.4em;
-  margin-bottom: 1%;
-  margin-left: 2%;
-  margin-right: 7%;
-  margin-top: 1em;
-}
+<body>
 
-.category-description {
-  color: #808284;
-  font-size: .9em;
-  line-height: 1.4em;
-  margin-bottom: 1%;
-  margin-left: 2%;
-  margin-right: 7%;
-  margin-top: .01em;
-}
+<div id="framecontent">
+<div class="innertube">
 
-hr {
-  border: 1px dotted #A7A9AB;
-  border-style: none none dotted; 
-  margin: 0 10% 0 0;
-}
+<h1>CSS Top Frame Layout</h1>
+<h3>Sample text here</h3>
+
+</div>
+</div>
+
+
+<div id="maincontent">
+<div class="innertube">
+
+<h1>Dynamic Drive CSS Library</h1>
+<p><script type="text/javascript">filltext(255)</script></p>
+
+<p style="text-align: center">Credits: <a href="http://www.dynamicdrive.com/style/">Dynamic Drive CSS Library</a></p>
+
+</div>
+</div>
+
+
+</body>
+</html>
+
